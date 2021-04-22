@@ -1,0 +1,28 @@
+
+#header {
+     background: #ffffff;
+     width: 100%;
+     height: 100px;
+     font-family: Playfair Display, sans-serif;
+     font-size: 14px;
+     text-align: center;
+     box-shadow :  0 пикселей  2 пикселей  20 пикселей  0 пикселей ;
+}
+
+
+#content {
+     background: #DCDCDC;
+     float: right;
+     width: 100%;
+     height: 500px;
+}
+ 
+#clear {
+     clear: both;
+}
+ 
+#footer {
+    background: #00BFFF;
+    width: 100%;
+    height: 280px;
+}
