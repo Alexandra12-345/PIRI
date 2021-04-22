@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Галерея имени И. К. Айвазовского</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="header">
+  <p> <img  src = "Logo.png" align="left" width = " 8% "> </p>
+
+  <h1><br>Галерея имени И. К. Айвазовского</h1>
+  </div>
+  
+  <hr>   
+
+  <div id="content">
+    <style>
+    .searchform {
+     display: inline-block;
+     zoom: 1;
+     *display: inline;
+     border: solid 1px #00399;
+     padding: 3px 5px;
+     
+     -webkit-border-radius: 2em;
+     -moz-border-radius: 2em;
+     border-radius: 2em;
+     
+    -webkit-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+     -moz-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+     box-shadow: 0 1px 0px rgba(0,0,0,.1);
+     
+    background: #f1f1f1;
+     background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+     background: -moz-linear-gradient(top, #fff, #ededed);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+     -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); 
+    }
+    .searchform input {
+     font: normal 12px/100% PT Serif, sans-serif;
+    }
+    .searchform .searchfield {
+     background: #fff;
+     padding: 6px 6px 6px 8px;
+     width: 202px;
+     border: solid 1px #0066cc;
+     outline: none;
+     
+    -webkit-border-radius: 2em;
+     -moz-border-radius: 2em;
+     border-radius: 2em;
+     
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+     -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+     box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+    }
+    .searchform .searchbutton {
+     color: #fff;
+     border: solid 1px #0066cc;
+     font-size: 11px;
+     height: 27px;
+     width: 57px;
+     text-shadow: 0 1px 1px rgba(0,0,0,.6);
+     
+    -webkit-border-radius: 2em;
+     -moz-border-radius: 2em;
+     border-radius: 2em;
+     
+    background: #003366;
+     background: -webkit-gradient(linear, left top, left bottom, from(#99ccff), to(#6699ff));
+     background: -moz-linear-gradient(top, #99ccff, #6699ff);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99ccff', endColorstr='#6699ff'); 
+     -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99ccff', endColorstr='#6699ff'); 
+    }
+    
+    </style>
+    </head>
+    <body>
+    <form class="searchform">
+     <input class="searchfield" type="text" value="Поиск по сайту" onfocus="if (this.value == 'Поиск по сайту') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Поиск по сайту';}" />
+     <input class="searchbutton" type="button" value="Поиск" />
+    </form>
+    <br>
+
+    <p align="left"> <font color=#0099ff face="PT Sans">Новости<br>
+    Картины <br>
+    О галереи <br>
+    Время работы <br>
+    Местонахождение </font></p>
+  </div>
+           
+  <hr> 
+            
+  <div id="footer">
+  <h3>Митюшева</h3>
+  </div>
+</div>
+</body>
+</html>
